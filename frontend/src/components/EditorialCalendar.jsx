@@ -1,4 +1,4 @@
-import { useState, forwardRef, useImperativeHandle } from 'react';
+import { useState, useEffect, forwardRef, useImperativeHandle } from 'react';
 import { BentoItem } from '../layouts/BentoLayout';
 import { ChevronLeft, ChevronRight, Calendar as CalendarIcon, Wand2, Loader2, X, Eye } from 'lucide-react';
 import api from '../api';
@@ -193,3 +193,4 @@ const EditorialCalendar = forwardRef((props, ref) => {
 });
 
 export default EditorialCalendar;
+
